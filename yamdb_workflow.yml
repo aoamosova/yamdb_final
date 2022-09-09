@@ -1,5 +1,5 @@
 name: Django-app workflow
-
+#ntncn
 on: [push]
 
 jobs:
@@ -43,6 +43,7 @@ jobs:
         with:
           push: true
           tags: aoamosova/yamdb_final:latest
+          file: api_yamdb/Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
