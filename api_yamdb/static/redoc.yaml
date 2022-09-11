@@ -1,6 +1,6 @@
 openapi: 3.0.2
 info:
-  title: 'YaMDb API'
+  title: 'Проверка запуска на ВМ'
   version: ''
   description: |
     запросы к API начинаются с `/api/v1/`
