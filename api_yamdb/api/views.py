@@ -109,7 +109,8 @@ class TitleViewSet(viewsets.ModelViewSet):
 
 
 class GenreViewSet(ListCreateDestroyViewSet):
-    """ This viewset automatically provides `list`, `create`, `destroy` actions.
+    """ This viewset automatically provides `list`,
+         `create`, `destroy` actions.
     """
     queryset = Genres.objects.all()
     serializer_class = GenreSerialiser
@@ -120,7 +121,8 @@ class GenreViewSet(ListCreateDestroyViewSet):
 
 
 class CategoryViewSet(ListCreateDestroyViewSet):
-    """ This viewset automatically provides `list`, `create`, `destroy` actions.
+    """ This viewset automatically provides `list`,
+        `create`, `destroy` actions.
     """
     queryset = Categories.objects.all()
     serializer_class = CategorySerialiser
