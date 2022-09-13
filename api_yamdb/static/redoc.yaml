@@ -1,6 +1,6 @@
 openapi: 3.0.2
 info:
-  title: 'Проверка запуска на ВМ'
+  title: '200 проверка запуска на ВМ'
   version: ''
   description: |
     запросы к API начинаются с `/api/v1/`
