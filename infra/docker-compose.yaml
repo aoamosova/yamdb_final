@@ -11,7 +11,7 @@ services:
     image: aoamosova/api_yamdb:latest
     restart: always
     volumes:
-      - static_value:/app/app_data/static/
+      - static_value:/app_data/static/
       - media_value:/app/media/
     depends_on:
       - db
