@@ -1,6 +1,6 @@
 openapi: 3.0.2
 info:
-  title: 'УРА!!! запуск на ВМ'
+  title: 'API YaMDB'
   version: ''
   description: |
     запросы к API начинаются с `/api/v1/`
